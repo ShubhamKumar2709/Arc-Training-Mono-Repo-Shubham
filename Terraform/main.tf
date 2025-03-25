@@ -30,8 +30,7 @@ module "ec2_instance" {
   vpc_id           = module.vpc.vpc_id
   root_volume_size = var.root_volume_size
   instance_count   = var.instance_count
-  #Senvironment      = var.environment
-  #project_name  = var.project_name
+
 }
 
 

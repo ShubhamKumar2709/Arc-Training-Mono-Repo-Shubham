@@ -57,10 +57,6 @@ variable "root_volume_size" {
   type        = number
 }
 
-# variable "ebs_size" {
-#   description = "Size of the root volume in GB"
-#   type        = number
-# }
 
 variable "key_name" {
   type        = string
@@ -77,10 +73,7 @@ variable "ebs_size" {
   description = "Size of the EBS volume in GB"
 }
 
-# variable "project_name" {
-#   description = "Project name for tagging resources"
-#   type        = string
-# }
+
 
 
 variable "environment" {
