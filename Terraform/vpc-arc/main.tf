@@ -33,12 +33,12 @@ module "network" {
   name                    = "${var.namespace}-${var.environment}"
   create_internet_gateway = true
   subnet_map              = local.subnet_map
-  cidr_block              = "10.0.0.0/16"
+  cidr_block              = "192.0.0.0/16"
 
 
   vpc_flow_log_config = {
-    enable            = true
-    retention_in_days = 7
+    enable            = false
+    retention_in_days = 0
     s3_bucket_arn     = null
   }
 
