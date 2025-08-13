@@ -1,0 +1,5 @@
+region                   = "ap-south-1"
+environment              = "dev"
+bucket_name              = "poc-terraform-bootstrap123456"
+dynamodb_name            = "poc-terraform-bootstrap123456"
+dynamo_kms_master_key_id = ""
